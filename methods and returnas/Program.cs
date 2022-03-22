@@ -9,7 +9,7 @@ internal static class Program
         var x = int.Parse(Console.ReadLine());
         Console.Write("Now the second: ");
         var y = int.Parse(Console.ReadLine());
-        Console.WriteLine($"Result: {Multi(x, y):N0}");//
+        Console.WriteLine($"Result: {Multi(x, y):N0}");
     }
 
     private static int Multi(int x, int y) => x * y;
