@@ -15,7 +15,7 @@ namespace ProgramToAmos
             x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Now the second");
             y = Convert.ToDouble(Console.ReadLine());
-            result = Multi(x, y);
+            result = Multi(x, y); //test
             
             Console.WriteLine(result);
         }
